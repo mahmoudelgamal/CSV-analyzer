@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 50vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid #ccc;
+    border: 1px solid #ddd;
+    padding: 28px;
+    outline-offset: 5px;
+    margin: 35px auto;
+  }
+  h1 {
+    text-align: center;
+    padding-block: 10px;
+    color: #000c66;
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  input {
+    margin-block: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 29px;
+  }
+  
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  
+  .custom-file-input::before {
+    content: "Upload yor CSV";
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 15px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  
+  div > h2 {
+    color: #000c66;
+    text-align: center;
+  }
+  #output{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  a {
+    display: inline-block;
+    color: #000c66;
+    margin-block: 20px;
+    text-decoration: none;
+  }
